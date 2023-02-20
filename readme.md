@@ -33,5 +33,30 @@ pulsamos enter, escribimos lo que queremos y pulsamos esc.
 
 `$ git status`
 
+* Añadir ficheros para commitear
 
+`$ git add <fichero>`
+
+> puedes agregar todos los ficheros con . o * 
+
+* Añadir un commit
+
+`$ git commit -m "<texto>"`
+
+* Ver el log (historial) de commits
+
+`$ git log`
+
+* Configurar cuenta github (login)
+
+`$ git config --global user.name "John Doe"`
+`$ git config --global user.email johndoe@example.com`
+
+* Eliminar un fichero del commit
+
+`$ git rm --cached <fichero>`
+
+> También puedes usar -f para eliminar el fichero
+
+* 
 ...
