@@ -56,7 +56,18 @@ pulsamos enter, escribimos lo que queremos y pulsamos esc.
 
 `$ git rm --cached <fichero>`
 
-> También puedes usar -f para eliminar el fichero
+> también puedes usar -f para eliminar el fichero
 
-* 
+* Ir a un commit anterior
+
+`$ git checkout id_commit`
+
+> este id puedes obtenerlo con desde el log
+
+* Restaurar fichero al estado del commit
+
+`$ git checkout -- <fichero>`
+
+
+
 ...
