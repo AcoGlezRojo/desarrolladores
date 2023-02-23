@@ -52,6 +52,9 @@
 
 `$ git log`
 
+> Si quieres ver todo lo que se cambió
+>  `$ git los --stat`
+
 * Configurar cuenta github (login)
 
 `$ git config --global user.name "John Doe"`
