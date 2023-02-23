@@ -17,7 +17,9 @@
 
 `$ vim <fichero>`
 
-pulsamos enter, escribimos lo que queremos y pulsamos esc.
+* insertar texto `:i`
+
+> pulsa esc para salir de insertar
 
 * guardar: `:w`
 
@@ -60,13 +62,29 @@ pulsamos enter, escribimos lo que queremos y pulsamos esc.
 
 * Ir a un commit anterior
 
-`$ git checkout id_commit`
+`$ git checkout <id_commit>`
 
 > este id puedes obtenerlo con desde el log
 
 * Restaurar fichero al estado del commit
 
 `$ git checkout -- <fichero>`
+
+* Muestra los cambios sin comitear
+
+`$ git show`
+
+* Ver diferencias entre commits
+
+`$ git diff <id_commit_1> <id_commit_2>`
+
+* Resetear un commit
+
+`$ git reset <id_commit> --hard|soft`
+
+> Si es hard, head va al id y borra todo lo que hay despues. Peligro!
+
+> Si es soft, conserva todo.
 
 
 
