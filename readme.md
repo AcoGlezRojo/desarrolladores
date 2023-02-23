@@ -45,6 +45,9 @@
 
 `$ git commit -m "<texto>"`
 
+> puedes hacer un add y un commit a la vez
+> `$ git commit -am "<texto>`
+
 * Ver el log (historial) de commits
 
 `$ git log`
