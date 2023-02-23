@@ -100,6 +100,15 @@
 
 `$ git checkout <nombre_rama>`
 
-> 
+> puedes crear una rama y moverte
+> `$ git checkout -b <nombre_rama>`
+
+* Fusionar ramas
+
+`$ git merge <nombre_rama>`
+
+> Ojo! hazlo desde el destino y te traes la rama que quieres.
+
+* M
 
 ...
