@@ -92,6 +92,14 @@
 
 > Si es soft, conserva todo.
 
+* Crear una rama
 
+`$ git branch <nombre_rama>`
+
+* Moverse entre ramas
+
+`$ git checkout <nombre_rama>`
+
+> 
 
 ...
